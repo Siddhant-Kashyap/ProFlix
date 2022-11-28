@@ -3,18 +3,15 @@ import LandingPage from "./components/LandingPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import English from "./components/English";
 import Hindi from "./components/Hindi";
+import Head from "./components/Header";
 
 function App() {
   return (
-
-    // Hello bro I am ready to contribute
-    //welcome bro
-    
     <BrowserRouter>
       <Routes>
         <Route
           path="/"
-          element={ 
+          element={
             <div className="App" style={{ backgroundColor: "midnightblue" }}>
               <LandingPage />
             </div>
