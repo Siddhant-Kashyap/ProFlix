@@ -8,33 +8,11 @@ import Head from "./components/Header";
 function App() {
   return (
     <BrowserRouter>
+    <Head/>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <div className="App" style={{ backgroundColor: "midnightblue" }}>
-              <LandingPage />
-            </div>
-          }
-        />
-
-        <Route
-          path="/hindimain"
-          element={
-            <div className="App" style={{ backgroundColor: "midnightblue" }}>
-              <Hindi/>
-            </div>
-          }
-        />
-
-        <Route
-          path="/englishmain"
-          element={
-            <div className="App" style={{ backgroundColor: "midnightblue" }}>
-              <English/>
-            </div>
-          }
-        />
+       <Route path="/" element={<LandingPage/>}/>
+       <Route path="/hindimain" element={<Hindi/>}/>
+       <Route path="/englishmain" element={<English/>}/>
       </Routes>
     </BrowserRouter>
   );
