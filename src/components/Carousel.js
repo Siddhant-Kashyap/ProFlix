@@ -1,14 +1,19 @@
 import React from 'react'
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import { LList } from '../Data/LanguageListLogo';
 
 const handleDragStart = (e) => e.preventDefault();
 
+
+
 const items = [
-  <img src="https://www.skmvdbb.catholic.edu.au/wp-content/uploads/2017/12/English-1024x512.jpg" onDragStart={handleDragStart} alt="presentation" height='140'/>,
-  <img src="https://www.nayichetana.com/wp-content/uploads/2020/09/l_hind-language-57930d14ae513_l_835x547.jpg" onDragStart={handleDragStart} alt="presentation" height='140' />,
-  <img src="https://www.skmvdbb.catholic.edu.au/wp-content/uploads/2017/12/English-1024x512.jpg" onDragStart={handleDragStart} alt="presentation" height='140'/>,
-  <img src="https://www.nayichetana.com/wp-content/uploads/2020/09/l_hind-language-57930d14ae513_l_835x547.jpg" onDragStart={handleDragStart} alt="presentation" height='140'/>,
+  <img src={LList.cpp} onDragStart={handleDragStart} alt="presentation" height='140'/>,
+  <img src={LList.java} onDragStart={handleDragStart} alt="presentation" height='140' />,
+  <img src={LList.python} onDragStart={handleDragStart} alt="presentation" height='140'/>,
+  <img src={LList.Js} onDragStart={handleDragStart} alt="presentation" height='140'/>,
+  <img src= {LList.CSharp}onDragStart={handleDragStart} alt="presentation" height='140'/>,
+  <img src= {LList.Node}onDragStart={handleDragStart} alt="presentation" height='140'/>,
 ];
 
 export const Carousel = () => {
