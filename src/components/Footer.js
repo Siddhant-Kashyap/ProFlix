@@ -13,7 +13,7 @@ const Footer = () => {
     }}>
         Made with love and to Support the DEV community 
         <br/>
-        By Siddhant Kashyap
+        By Siddhant Kashyap and Rashid Hussain
         
     </div>
     </>
