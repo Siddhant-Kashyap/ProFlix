@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={
+          element={ 
             <div className="App" style={{ backgroundColor: "midnightblue" }}>
               <LandingPage />
             </div>
