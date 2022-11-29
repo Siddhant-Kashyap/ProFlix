@@ -4,11 +4,11 @@ import React from "react";
 const CardLang = (props) => {
   return (
     <>
-      <Card>
+      <Card sx={{pl:'1rem',pr:'1rem'}}>
         <CardActionArea>
           <CardMedia
             component="img"
-            height="140"
+            height="144"
             image={props.image}
             alt={props.lang}
           />
