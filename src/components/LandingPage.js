@@ -19,7 +19,10 @@ const LandingPage = () => {
     language="Hindi"
     description=" Programming Seekhen Hindi me"
     />
+
+    
    </Grid>
+   
 
    {/* for english card */}
    <Grid item  xs={12} md={6} sx={{padding:'2rem',pt:{xs:'1rem',md:'1rem'}}}>
