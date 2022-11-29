@@ -1,6 +1,7 @@
 import { Box, Container } from "@mui/material";
 import React from "react";
 import { LangList } from "../Data/LanguageListLogo";
+import Footer from "./Footer";
 import CardLang from "./SmallComponent/CardLang";
 
 const Hindi = () => {
@@ -29,8 +30,10 @@ const Hindi = () => {
           <CardLang image={LList.Node} alt="NodeJS" />
           <CardLang image={LList.python} alt="python" /> */}
          
+
         </Box>
       </Container>
+      <Footer/>
     </>
   );
 };

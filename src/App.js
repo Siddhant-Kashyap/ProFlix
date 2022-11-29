@@ -11,8 +11,8 @@ function App() {
     <Head/>
       <Routes>
        <Route path="/" element={<LandingPage/>}/>
-       <Route path="/hindimain" element={<Hindi/>}/>
-       <Route path="/englishmain" element={<English/>}/>
+       <Route path="/hindiSection" element={<Hindi/>}/>
+       <Route path="/englishSection" element={<English/>}/>
       </Routes>
     </BrowserRouter>
   );

@@ -18,6 +18,7 @@ const LandingPage = () => {
     alt="hindiCatlog"
     language="Hindi"
     description=" Programming Seekhen Hindi me"
+    pages="/hindiSection"
     />
 
     
@@ -31,6 +32,7 @@ const LandingPage = () => {
     alt="EnglishCatlog"
     language="English"
     description=" Learn Programming in English"
+    pages="/englishSection"
    />
    </Grid>
    {/* for carousel card */}
